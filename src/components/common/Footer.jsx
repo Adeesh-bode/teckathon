@@ -65,7 +65,7 @@ function Footer() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              Shibam Saha.
+              Team Restful APIs 
             </a>
           </span>
           <span>

@@ -35,6 +35,8 @@ import {
   Submissions,
   Video
 } from './pages';
+import DiscussionPanel from "./components/Leaderboard/DiscussionPanel";
+
 
 function Root() {
   return (
@@ -45,6 +47,7 @@ function Root() {
           <Route element={<Home />} path="/" />
           <Route element={<Quizzes />} path="/quizzes" />
           <Route element={<About />} path="/about" />
+          <Route element={<DiscussionPanel/>} path="/Discussion"/>
           <Route element={<Reset />} path="/reset" />
           <Route element={<Learn />} path="/learn" />
           <Route element={<PublicOutlet />} path="/">

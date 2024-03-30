@@ -7,7 +7,7 @@ const aboutDetails = [
 
   `Our team of expert coders and educators work tirelessly to create and curate high-quality quizzes and resources that are both challenging and informative. Our quizzes are updated regularly to reflect the latest trends and technologies in the coding domain, so you can be sure that you're learning the most up-to-date information.`,
 
-  `Thank you for choosing Quizzy as your go-to source for free coding quizzes and resources. We hope you enjoy learning and growing with us!`
+  `Thank you for choosing Quizzy as your go-to source for free coding quizzes and resources. We hope you enjoy learning and growing with us!`,
 ];
 
 function About() {
@@ -17,10 +17,7 @@ function About() {
 
       <div className="card flex max-w-4xl flex-col gap-10 p-6 text-justify font-medium dark:text-red-300 sm:w-3/5 sm:text-xl">
         {aboutDetails.map((para, index2) => (
-          <p
-            key={index2}
-            className="indent-10 first-letter:text-xl dark:text-gray-300 sm:first-letter:text-2xl"
-          >
+          <p key={index2} className="indent-10 first-letter:text-xl dark:text-gray-300 sm:first-letter:text-2xl">
             {para}
           </p>
         ))}
@@ -34,7 +31,7 @@ function About() {
           rel="noreferrer"
           target="_blank"
         >
-          Shibam Saha.
+          Team Restful APIs
         </a>
       </span>
 

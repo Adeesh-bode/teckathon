@@ -5,7 +5,7 @@
 </p>
 
 <div align="center">
-    <h1>Quizzy</h1>
+    <h1>EduQuiz</h1>
     <p>Challenge your limits</p>
 </div>
 
@@ -32,7 +32,6 @@ Quizzy is a platform for online computer science or coding quizzes, as well as l
    -  Email/Password Signin
 -  Option to edit profile and reset password
 -  Marking based quizzes
--  Certificate on successful completion
 -  Quiz submission history
 -  Video tutorials to learn computer science topics
 

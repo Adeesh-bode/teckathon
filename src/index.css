@@ -9,12 +9,14 @@
   * {
     @apply m-0 box-border p-0 font-montserrat text-black selection:bg-secondary/30 dark:text-white;
   }
+  btn{
+    @apply px-4 py-2 border rounded-lg shadow-xl 
+  }
 
   body {
     @apply overflow-x-hidden overflow-y-scroll bg-light dark:bg-dark;
   }
 
-  /* Scrollbar */
   ::-webkit-scrollbar {
     @apply h-1 w-1;
   }
