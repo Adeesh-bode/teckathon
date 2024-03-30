@@ -58,7 +58,7 @@ function Footer() {
       <div className="flex flex-col justify-center text-sm md:mr-10 md:flex-row md:items-center md:justify-between">
         <div className="text-center md:text-left">
           <span className="mb-1 block ">
-            Developed with 💚 by &nbsp;
+            Developed with 💚 by Team RestfulAPIs
             <a
               className="cursor-pointer hover:underline"
               href="https://www.shibamsaha.dev"

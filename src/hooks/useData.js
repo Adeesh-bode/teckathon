@@ -1,6 +1,9 @@
 import { get, getDatabase, orderByKey, query, ref } from 'firebase/database';
 import { useEffect, useState } from 'react';
 
+import { db } from '../firebase';
+
+
 export default function useData(address) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);

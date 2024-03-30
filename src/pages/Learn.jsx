@@ -22,20 +22,7 @@ function Learn() {
     <>
       <div className="mx-auto mb-32 flex min-h-screen w-[90%] animate-reveal flex-col items-center">
         <h1 className="page-heading">Learn from us</h1>
-
-        <div className="mx-auto grid w-full grid-cols-quizzes justify-items-center gap-5">
-          {shuffledData.map((video, index) => (
-            <Link key={index} className="w-full" to={`/video/${video.link}`}>
-              <Thumbnail id={video.link} title={video.title} type="video" />
-            </Link>
-          ))}
-        </div>
-
-        <div className="flex items-center justify-center text-center text-xl">
-          {!loading && shuffledData.length === 0 && <>No data found! </>}
-          {error && <>There was an error! </>}
-          {loading && <>Loading ...</>}
-        </div>
+        <h2>Yaha Leaderboard</h2>
       </div>
       <Footer />
     </>

@@ -12,7 +12,7 @@ function SubNavigationBar({ className }) {
         <NavButton text="Quizzes" />
       </NavLink>
       <NavLink className={({ isActive }) => (isActive ? 'active-page' : null)} to="/learn">
-        <NavButton text="Learn" />
+        <NavButton text="Leader Board" />
       </NavLink>
       <NavLink className={({ isActive }) => (isActive ? 'active-page' : null)} to="/about">
         <NavButton text="About" />
